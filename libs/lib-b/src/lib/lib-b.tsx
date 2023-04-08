@@ -1,18 +1,2 @@
-import styled from 'styled-components';
-
-/* eslint-disable-next-line */
-export interface LibBProps {}
-
-const StyledLibB = styled.div`
-  color: pink;
-`;
-
-export function LibB(props: LibBProps) {
-  return (
-    <StyledLibB>
-      <h1>Welcome to LibB!</h1>
-    </StyledLibB>
-  );
-}
-
-export default LibB;
+export type { LibAProps } from '@my-app/lib-a';
+export { LibA } from '@my-app/lib-a';
