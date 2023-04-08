@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@my-app/lib-a": ["libs/lib-a/src/index.ts"],
+      "@my-scope/lib-a": ["libs/lib-a/src/index.ts"],
       "@my-scope/lib-b": ["libs/lib-b/src/index.ts"]
     }
   },
